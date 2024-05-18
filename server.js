@@ -25,7 +25,7 @@ db.once('open', () => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Books Directory API!');
+    res.send('Welcome to the Books Directory');
 });
 
 app.use('/books', bookRoutes);
